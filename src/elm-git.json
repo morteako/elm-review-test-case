@@ -1,8 +1,0 @@
-{
-  "git-dependencies": {
-    "direct": {
-      "https://github.com/morteak/elm-review-test-case": "760afdf"
-    },
-    "indirect": {}
-  }
-}

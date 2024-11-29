@@ -1,6 +1,10 @@
 module Main exposing (..)
 
-import Util as X
+-- actually used, reported as unused
+import Util.List as List
+
+-- actually unused, not reported as unused
+import Util as List
 
 
-f = X.test
+func x = List.test x

@@ -1,3 +1,3 @@
-module Util exposing (test)
+module Util exposing (x)
 
-test = False
+x = 1
