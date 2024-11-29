@@ -6,11 +6,11 @@ This repo reproduces a bug regarding unused imports in elm-review in combination
 ## Setup and running
 
 * Clone the repo
-* Run `npx elm-review` (should be 
+* Run `npx elm-review`
 
 
 The results from running elm-git-install is already included in the repo, but
-if one wants to actually run `elm-git-install`, just run `npx elm-git-install` and it will overwrite the contents if needed.
+if one wants to actually run `elm-git-install`, just run `rm -rf elm-stuff && npx elm-git-install` and it will overwrite the contents if needed.
 
 ## Result from elm-review
 ```shell
