@@ -1,6 +1,6 @@
 # Repo for reproducing bug in elm-review-unused
 
-
+This repo reproduces a bug regarding unused imports in elm-review in combination with elm-git-install.
 
 
 ## Setup and running
@@ -52,4 +52,5 @@ I found 2 errors in 2 files.
 The first error is not correct, the module alias is used. See more details in the file src/MainGitInstallWrongError.elm
 
 
-
+The second error is correct. The difference between the two files, is that the first one uses a dependency importen using elm-git-install and the latter just uses normal local code.
+Seems like there is an issue when determining the correct Module when using code not in "src"?
