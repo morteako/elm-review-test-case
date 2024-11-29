@@ -1,0 +1,12 @@
+{
+  "name": "morteako/blabla",
+  "license": "0BSD",
+  "summary": "test",
+  "version": "0.0.1",
+  "exposed-modules": ["Util"],
+  "type": "package",
+  "source-directories": ["src"],
+  "elm-version": "0.19.1",
+  "dependencies": {},
+  "test-dependencies": {}
+}

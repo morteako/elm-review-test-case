@@ -1,0 +1,8 @@
+{
+    "git-dependencies": {
+        "direct": {
+            "https://github.com/morteako/elm-review-test-case-git-install.git": "d21693b"
+        },
+        "indirect": {}
+    }
+}
