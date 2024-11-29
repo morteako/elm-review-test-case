@@ -1,3 +1,3 @@
-module Util exposing (x)
+module UtilNotUsed exposing (x)
 
 x = 1
